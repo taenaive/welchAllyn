@@ -7,5 +7,16 @@
   <body>
     <h1>{{ title }}</h1>
     <p>Welcome to {{ title }}</p>
+    <div id="main-pad" class="m-main-pad">
+    <p> Choose your device </p>
+    <button class="button choose" data-action="choose">Choose Device</button>
+     
+    <div>
+
+    <div>
+     <button class="button save" data-action="launch">Launch</button>
+    </div>
   </body>
+  <script src="/bower_components/jquery/dist/jquery.min.js"></script>
+  <script src="javascripts/app.js"></script>
 </html>
