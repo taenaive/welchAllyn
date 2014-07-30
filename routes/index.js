@@ -3,7 +3,7 @@ var router = express.Router();
 
 /* GET home page. */
 router.get('/', function(req, res) {
-  res.render('index', { title: 'MEPCOM station' });
+  res.render('index', { title: 'MEPCOM Vital station' });
 });
 
 module.exports = router;

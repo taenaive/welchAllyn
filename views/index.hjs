@@ -8,13 +8,13 @@
     <h1>{{ title }}</h1>
     <p>Welcome to {{ title }}</p>
     <div id="main-pad" class="m-main-pad">
-    <p> Choose your device </p>
-    <button class="button choose" data-action="choose">Choose Device</button>
-     
-    <div>
-
-    <div>
-     <button class="button save" data-action="launch">Launch</button>
+       
+      <div id="device_list">
+        <h3> Connect to user's vital device </h3>
+       <button class="button choose" data-action="choose">Connect To Vital Device</button> 
+      </div>
+      
+       <!-- <button class="button save" data-action="launch">Launch</button> -->
     </div>
   </body>
   <script src="/bower_components/jquery/dist/jquery.min.js"></script>

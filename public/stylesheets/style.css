@@ -6,3 +6,60 @@ body {
 a {
   color: #00B7FF;
 }
+
+ul {
+    width: 30em
+}
+.right {
+     margin-left: 4em;
+    display: inline-block;
+}​
+.box li{
+	text-align:center;
+	position:relative;
+	
+}
+.box {
+	width:100%;
+	height:25px;
+	background:#FFF;
+	/*margin:10px auto;*/
+}
+
+/*==================================================
+ * Effect 2
+ * ===============================================*/
+.effect2
+{
+  position: relative;
+}
+.effect2:before, .effect2:after
+{
+  z-index: -1;
+  position: absolute;
+  content: "";
+  bottom: 15px;
+  left: 1px;
+  width: 50%;
+  top: 24%;
+  max-width:1000px;
+  background: #777;
+  -webkit-box-shadow: 0 15px 10px #777;
+  -moz-box-shadow: 0 15px 10px #777;
+  box-shadow: 0 15px 10px #777;
+  -webkit-transform: rotate(-3deg);
+  -moz-transform: rotate(-3deg);
+  -o-transform: rotate(-3deg);
+  -ms-transform: rotate(-3deg);
+  transform: rotate(-3deg);
+}
+.effect2:after
+{
+  -webkit-transform: rotate(3deg);
+  -moz-transform: rotate(3deg);
+  -o-transform: rotate(3deg);
+  -ms-transform: rotate(3deg);
+  transform: rotate(3deg);
+  right: 10px;
+  left: auto;
+}
