@@ -3,7 +3,7 @@ var wrapper = document.getElementById("main-pad"),
     saveButton = wrapper.querySelector("[data-action=launch]");
 
     chooseButton.addEventListener("click", function (event) {
-    	$.get("http://127.0.0.1:3000/WelchAllyn/Device/GetDevices",function(data,status){
+    	$.get("http://127.0.0.1:3006/WelchAllyn/Device/GetDevices",function(data,status){
     			alert("Data: " + data + "\nStatus: " + status);
   			});
 
