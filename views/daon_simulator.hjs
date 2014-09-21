@@ -9,51 +9,16 @@
   </head>
   <body>
     <h1>{{ title }}</h1>
-    <h4>Using Device : <span id="device_name">{{ device_name }}</span> </h4>
+    <h4> Click below button to simulate </h4>
     <div id="main-pad" class="m-main-pad">
-    <!--
-       {"reading":"0","bmi":"20","clinicianid":null,"date":"1999-11-30T00:00:00","diastolic":"64.81","height":"72.99213","hr":"69","map":"73.98","o2sat":null,"pain":"3","patientid":null,"pulse":null,"respiration":"22","systolic":"92.33","temperature":"97.68742","weight":"152.0087"}]
-    -->
-    <button data-action="captureButton">Capture from the device</button>
-     <form class="pure-form pure-form-aligned">
-     <fieldset>
-        <legend>Vital form </legend>
-        <div class="pure-control-group">
-        <label for="weight">Weight</label>
-        <input id='weight' type="text" name="weight">
-        </div>
-        <div class="pure-control-group">
-        <label for="height">Height</label>
-        <input id='height' type="text" name="height">
-        </div>
-        <div class="pure-control-group">
-        <label for="bmi">Bmi</label>
-        <input id='bmi' type="text" name="bmi">
-        </div>
-        <div class="pure-control-group">
-        <label for="diastolic">Diastolic</label>
-        <input id='diastolic' type="text" name="diastolic">
-        </div>
-        <div class="pure-control-group">
-        <label for="systolic">Systolic</label>
-        <input id='systolic' type="text" name="systolic">
-        </div>
-        <div class="pure-control-group">
-        <label for="heartRate">Heart rate</label>
-        <input id='heartRate' type="text" name="heartRate">
-        </div>
-        <div class="pure-control-group">
-        <label for="temperature">Temperature</label>
-        <input id='temperature' type="text" name="temperature">
-        </div>
-        <button type="submit" class="pure-button pure-button-primary">Submit</button>
-      </fieldset>
-      </form>
-      
+  
+    <button data-action="checkInButton">Checkin</button>
+    <button data-action="checkOutButton">Checkout</button>
+    <button data-action="verifyButton">Verify</button>  
        <!-- <button class="button save" data-action="launch">Launch</button> -->
     </div>
   </body>
   <script src="/bower_components/jquery/dist/jquery.min.js"></script>
-  <script src="javascripts/devices.js"></script>
+  <script src="/javascripts/daon_simulator.js"></script>
   <!-- <script src="javascripts/app.js"></script> -->
 </html>
