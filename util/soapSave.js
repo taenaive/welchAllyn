@@ -39,7 +39,7 @@ var soapSaveImage = function(url){
 				 var saveArgs = { /*requestHeader:{ loginUserName: 'null', requestId:'1'}, */
                                         result: data.mode,
                                         modality: "FINGER",
-                                        applicant_id: data.applicantId,
+                                        applicant_id: data.applicantId
 
                                     };
                 console.log("saveArgs: " +JSON.stringify(saveArgs));
