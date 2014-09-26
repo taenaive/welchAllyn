@@ -36,6 +36,7 @@ var soapSaveImage = function(url){
 				 	data.mode = "ENROLLED";
 				 }
 				 
+				 //needs to append ns2:
 				 var saveArgs = { /*requestHeader:{ loginUserName: 'null', requestId:'1'}, */
                                         result: data.mode,
                                         modality: "FINGER",
